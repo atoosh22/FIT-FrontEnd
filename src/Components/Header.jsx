@@ -16,6 +16,10 @@ function Header() {
 
           <ul className="flex hidden md:flex gap-6 px-10">
 
+          <li>
+          <Link to="/">Home</Link>
+         </li>
+
          <li>
           <Link to="/Product">Product</Link>
          </li>
