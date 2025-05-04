@@ -1,16 +1,156 @@
-import React from 'react'
-import Header from '../Components/Header'
+import React from 'react';
+import team_Member_1 from '../assets/img/team_Member_1.png';
+import team_Member_2 from '../assets/img/team_Member_2.png';
+import team_Member_3 from '../assets/img/team_Member_3.png';
+import team_Member_4 from '../assets/img/team_Member_4.png';
+import team_Member_5 from '../assets/img/team_Member_5.png';
+import team_Member_6 from '../assets/img/team_Member_6.png';
+import facbook from '../assets/icons/facbook.png';
+import instagram from '../assets/icons/instagram.png';
+import twitter from '../assets/icons/twitter.png';
+import our_news_1 from '../assets/img/our_news_1.png';
+import our_news_2 from '../assets/img/our_news_2.png';
+import our_news_3 from '../assets/img/our_news_3.png';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
 function Trainers() {
   return (
     <>
-
-    <Header/>
-    <div>this Trainers section</div>
-    
-    
+      <Header />
+      <Team />
+      <Post/>
+      <Footer/>
     </>
+  );
+}
+
+function Team() {
+  return (
+    <div className="text-center mt-10 px-10">
+      <p className='text-[#FBAD26] font-[Roboto] py-2'>TEAM MEMBERS</p>
+      <h3 className='font-bold font-[Roboto] text-3xl'>TEAM OF EXPERT COACHES</h3>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
+        
+        {/* Member 1 */}
+        <div className="shadow-lg p-5 my-20">
+          <img src={team_Member_1} alt="Marvin Joiner" />
+          <h4 className='font-bold py-1'>MARVIN JOINER</h4>
+          <p>Crossfit Coach</p>
+          <div className="flex gap-3">
+          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+          </div>
+        </div>
+
+        {/* Member 2 */}
+        <div className="shadow-lg p-5 my-20">
+          <img src={team_Member_2} alt="Patricia Woodrum" />
+          <h4 className='font-bold py-1'>PATRICIA WOODRUM</h4>
+          <p>Cardio & Conditioning</p>
+          <div className="flex gap-3">
+          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+          </div>
+        </div>
+
+        {/* Member 3 */}
+        <div className="shadow-lg p-5 my-20">
+          <img src={team_Member_3} alt="Hannaz Stone" />
+          <h4 className='font-bold py-1'>HANNAZ STONE</h4>
+          <p>Strength Coach</p>
+          <div className="flex gap-3">
+          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+          </div>
+        </div>
+
+        {/* Member 4 */}
+        <div className="shadow-lg p-5 my-20">
+          <img src={team_Member_4} alt="John Doe" />
+          <h4 className='font-bold py-1'>JOHN DOE</h4>
+          <p>Yoga Instructor</p>
+          <div className="flex gap-3">
+          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+          </div>
+        </div>
+
+        {/* Member 5 */}
+        <div className="shadow-lg p-5 my-20">
+          <img src={team_Member_5} alt="Jane Smith" />
+          <h4 className='font-bold py-1'>JANE SMITH</h4>
+          <p>Nutritionist</p>
+          <div className="flex gap-3">
+          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+          </div>
+        </div>
+
+        {/* Member 6 */}
+        <div className="shadow-lg p-5 my-20">
+          <img src={team_Member_6} alt="Mike Johnson" />
+          <h4 className='font-bold py-1'>MIKE JOHNSON</h4>
+          <p>Fitness Trainer</p>
+          <div className="flex gap-3">
+             <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
+}
+//  posts
+const Post=()=>{
+  return(
+
+   <>
+  <div className="my-12 text-center">
+  <p className='text-[#FBAD26] font-[Roboto] py-2'>OUR NEWS</p>
+  <h3 className='font-bold font-[Roboto] text-3xl'>LATEST BLOG POSTS</h3>
+  </div>
+
+  {/* cards */}
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-10 ">
+   <div className="bg-gray-200 py-4">
+   <img src={our_news_1} alt="" />
+   <h2 className='w-10 bg-[#FBAD26] rounded-full text-center px-2 py-2 text-white ml-20 '>20</h2>
+   <p className='px-6 py-3'>sit amet, consectetur adipisicing elit,
+sed do eiusmod tempor incididunt ut labore et dolore,
+magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco</p>
+   </div>
+
+   <div className="bg-gray-200">
+   <img src={our_news_2} alt="" />
+   <h2 className='w-10 bg-[#FBAD26] rounded-full text-center px-2 py-2 text-white ml-20 '>10</h2>
+   <p className='px-6 py-3'>sit amet, consectetur adipisicing elit,
+sed do eiusmod tempor incididunt ut labore et dolore,
+magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco</p>
+   </div>
+
+   <div className="bg-gray-200">
+   <img src={our_news_3} alt="" />
+   <h2 className='w-10 bg-[#FBAD26] rounded-full text-center px-2 py-2 text-white ml-20 '>30</h2>
+   <p className='px-6 py-3'>sit amet, consectetur adipisicing elit,
+sed do eiusmod tempor incididunt ut labore et dolore,
+magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco</p>
+   </div>
+
+  </div>
+   
+   </>
   )
 }
 
-export default Trainers
+export default Trainers;
