@@ -22,10 +22,10 @@ function Footer() {
     <div className="links flex flex-col gap-1 m-5">
       <h3 className='text-500 font-bold'>Quick links</h3>
       <a href="Product" className='hover:text-[#FBAD27]'>Product</a>
-      <a href="Product" className='hover:text-[#FBAD27]'>Trainers</a>
-      <a href="Product" className='hover:text-[#FBAD27]'> Princing</a>
-      <a href="Product" className='hover:text-[#FBAD27]'>Members</a>
-      <a href="Product" className='hover:text-[#FBAD27]'>Contact</a>
+      <a href="Trainers" className='hover:text-[#FBAD27]'>Trainers</a>
+      <a href="pricing" className='hover:text-[#FBAD27]'> Princing</a>
+      <a href="members" className='hover:text-[#FBAD27]'>Members</a>
+      <a href="Contact" className='hover:text-[#FBAD27]'>Contact</a>
     </div>
     
     <div className="img">

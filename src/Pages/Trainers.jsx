@@ -1,4 +1,5 @@
 import React from 'react';
+import PricingHeader from '../assets/img/trainers.jpg';
 import team_Member_1 from '../assets/img/team_Member_1.png';
 import team_Member_2 from '../assets/img/team_Member_2.png';
 import team_Member_3 from '../assets/img/team_Member_3.png';
@@ -18,6 +19,7 @@ function Trainers() {
   return (
     <>
       <Header />
+      <Hero/>
       <Team />
       <Post/>
       <Footer/>
@@ -25,9 +27,20 @@ function Trainers() {
   );
 }
 
+function Hero(){
+  return(
+    <>
+        <div className="bg-[url('../src/assets/img/trainers.jpg')] bg-cover bg-center min-h-[600px] opacity-0.8">
+     <h3 className='text-7xl text-white pt-32 text-center font-[Roboto] fott-bold'>OUR TRAINERS</h3>
+    </div>
+    
+    </>
+  )
+}
+
 function Team() {
   return (
-    <div className="text-center mt-10 px-10">
+    <div className="text-center mt-20 px-10">
       <p className='text-[#FBAD26] font-[Roboto] py-2'>TEAM MEMBERS</p>
       <h3 className='font-bold font-[Roboto] text-3xl'>TEAM OF EXPERT COACHES</h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7">

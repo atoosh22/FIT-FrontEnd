@@ -1,7 +1,10 @@
+import product_Header from '../assets/img/product.jpg'
 import supplement from  '../assets/img/supplement.jpg'
 import product1 from  '../assets/img/product1.png'
 import product5 from  '../assets/img/product5.png'
 import product2 from  '../assets/img/product2.png'
+import product6 from  '../assets/img/product6.png'
+import product4 from  '../assets/img/product4.png'
 
 
 
@@ -14,6 +17,7 @@ function Product() {
  <>
 
  <Header/>
+ <Hero/>
   <Supplement/>
   <SELLING/>
   <Footer/>
@@ -23,10 +27,23 @@ function Product() {
 }
 
 
+function Hero(){
+  return(
+    <>
+        <div className="bg-[url('../src/assets/img/product.jpg')] bg-cover bg-center  min-h-[500px] opacity-80">
+     <h3 className='text-6xl text-white pt-32 text-center font-[Roboto] fott-bold'>Your Body Needs High <br/>
+     <span className='text-[#FBAD26] font-bold  text-4xl'>Energy during Workout</span></h3>
+    </div>
+    
+    </>
+  )
+}
+
+
 const Supplement=()=>{
   return(
     <>
-   <div className="flex justify-between my-20 mx-20 flex-col md:flex-row gap-4">
+   <div className="flex justify-between mt-65 mx-20 flex-col md:flex-row gap-4">
     <div className="img">
     <h3 className='bg-gray-100 shadow-lg text-center font-bold p-4 text-5xl rounded-lg'>WHY NEED THIS?</h3>
     <img className='w-[600px]' src={supplement} alt="" />
@@ -76,12 +93,12 @@ function SELLING(){
    {/* product4 */}
 
    <div className="shadow-lg bg-white rounded-lg hover:bg-gray-300 my-13 p-10">
-    <img src={product2} alt="" />
+    <img  src={product4} alt="" />
     <h2 className='pl-20 mt-8 font-bold font-[Roboto]'>WOMEN<br/>DOSES</h2>
   </div>
    {/* product5 */}
    <div className="shadow-lg bg-white rounded-lg hover:bg-gray-300 my-13 p-10">
-    <img src={product2} alt="" />
+    <img className='w-96' src={product6} alt="" />
     <h2 className='pl-20 mt-8 font-bold font-[Roboto]'>STRONG<br/>DOSES</h2>
   </div>
    {/* product6 */}

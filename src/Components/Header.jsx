@@ -16,9 +16,9 @@ function Header() {
 
           <ul className="flex hidden md:flex gap-6 px-10">
 
-          <li>
+          {/* <li>
           <Link to="/">Home</Link>
-         </li>
+         </li> */}
 
          <li>
           <Link to="/Product">Product</Link>
@@ -56,11 +56,26 @@ function Header() {
         <div id="mobileMenu" className="mobile-menu bg-[#7168AF] text-white">
           <ul className="flex flex-col gap-4 px-10 py-4">
             
-            <a href="#"><li className="hover:text-[#FBAD27]">Product</li></a>
-            <a href="#"><li className="hover:text-[#FBAD27]">Trainers</li></a>
-            <a href="#"><li className="hover:text-[#FBAD27]">Princing</li></a>
-            <a href="#"><li className="hover:text-[#FBAD27]">Members</li></a>
-            <a href="#"><li className="hover:text-[#FBAD27]">Contact</li></a>
+          <li>
+          <Link to="/Product">Product</Link>
+         </li>
+
+         <li>
+          <Link to="/Trainers">Trainers</Link>
+         </li>
+
+         <li>
+          <Link to="/pricing">Pricing</Link>
+         </li>
+
+
+          <li>
+          <Link to="/Member">Members</Link>
+         </li> 
+
+         <li>
+          <Link to="/Contact">Contact</Link>
+         </li>
           </ul>
         </div>
       )}
