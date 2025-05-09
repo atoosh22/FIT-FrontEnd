@@ -8,7 +8,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-  <div className="container bg-[#7168AF] flex justify-between items-center text-white flex-col md:flex-row">
+  <div className="container  bg-[#7168AF] flex justify-between items-center text-white flex-col md:flex-row">
     <div className="logo ml-7 mt-5">
       <img className='w-32' src="logo.png" alt="" />
       <a href="https://facbook.com"> <img className='w-9 ml-3 hover:bg-[#FBAD27]' src={facbook} alt="" /></a>

@@ -33,7 +33,7 @@ function Home() {
 function Hero(){
   return(
     <>
-        <div className="bg-[url('../src/assets/img/Header.png')] bg-cover bg-center min-h-[600px] opacity-70">
+        <div className=" bg-[url('../src/assets/img/Header.png')] bg-cover bg-center min-h-[600px] opacity-70">
        <div className="flex gap-5 mx-20 flex-col md:flex-row">
        <div className="text pt-32">
        <h2 className='font-bold text-4xl font-[roboto]'>Perfect Workout <br/><span className='text-[#8368FF]'>Coach For Body Shape</span></h2>

@@ -39,8 +39,8 @@ const ContactUs=()=>{
       <h2 className='text-2xl font-[Roboto]'> Contact Form</h2>
       <form>
       <div className="flex gap-6 my-5 flex-col md:flex-row">
-        <input className='border-2 border-gray-200 px-4 py-2' type="text" placeholder='Enter your Name' required/>
-        <input  className='border-2 border-gray-200 px-4 py-2' type="email" placeholder='Enter your Email' required/>
+        <input className='border-2 border-gray-200 px-4 py-2' type="text" required placeholder='Enter your Name' />
+        <input  className='border-2 border-gray-200 px-4 py-2' type="email"required placeholder='Enter your Email' />
         
       </div>
      
