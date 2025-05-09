@@ -12,13 +12,15 @@ function Header() {
     <>
       <nav>
         <div className=" container flex justify-between items-center bg-[#7168AF] text-white font-bold py-4 shadow-lg z-100">
-          <img className="w-32 ml-5" src="Logo-H.png" alt="Logo" />
+             
+          <Link to="/"><img className="w-32 ml-5" src="Logo-H.png" alt="Logo" /></Link>
+         
 
           <ul className="flex hidden md:flex gap-6 px-10">
 
-          <li>
+          {/* <li>
           <Link to="/">Home</Link>
-         </li>
+         </li> */}
 
          <li>
           <Link to="/Product">Product</Link>

@@ -39,8 +39,10 @@ const ContactUs=()=>{
       <h2 className='text-2xl font-[Roboto]'> Contact Form</h2>
       <form>
       <div className="flex gap-6 my-5 flex-col md:flex-row">
-        <input className='border-2 border-gray-200 px-4 py-2' type="text" required placeholder='Enter your Name' />
-        <input  className='border-2 border-gray-200 px-4 py-2' type="email"required placeholder='Enter your Email' />
+       <input className='w-[90%] border border-gray-300 shadow-lg rounded-lg p-2 my-2 bg-white' type="text" required placeholder='Enter Phone Number' /><br/>
+        
+        <input className='w-[90%] border border-gray-300 shadow-lg rounded-lg p-2 my-2 bg-white' type="text" required placeholder='Enter Phone Number' /><br/>
+        
         
       </div>
      
@@ -50,7 +52,7 @@ const ContactUs=()=>{
         </textarea>
      
 
-        <a className='bg-[#FBAD26] px-3 py-2 text-white rounded-lg ' href="#">Send a Message</a>
+        <input className='bg-[#FBAD26] text-white px-2 py-1 rounded ' type="submit" value='Send a Messege' />
       </form>
       </div>
     </div>
