@@ -124,7 +124,8 @@ const Workout = () => {
             <h3>20.50</h3>
           </div>
         </div>
-        <div className="shadow mb-32" data-aos="zoom-in-up">
+        <div className="shadow mb-32" data-aos="fade-up"
+        data-aos-duration="3000">
           <img src={course4} alt="" />
           <div className="m-3">
             <p className='font-[Poppins]'>Strength Upper Body</p>
@@ -138,7 +139,8 @@ const Workout = () => {
             <h3>30.00</h3>
           </div>
         </div>
-        <div className="shadow" data-aos="zoom-in-up" >
+        <div className="shadow" data-aos="fade-up"
+        data-aos-duration="3000" >
           <img src={course7} alt="" />
           <div className="m-3">
             <p className='font-[Poppins]'>Total Body Stretchings</p>
