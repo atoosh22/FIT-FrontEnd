@@ -3,7 +3,7 @@ import React from 'react';
 function Form() {
   return (
     <>
-      <form className='w-4/8 h-full justify-center mx-auto bg-gray-50 shadow-lg rounded-lg text-center my-20' data-aos="fade-down-right">
+      <form className='w-4/8 h-full justify-center mx-auto bg-gray-50 shadow-lg rounded-lg text-center mt-37' data-aos="fade-down-right">
         <h3 className='bg-[#FBAD26] text-white font-bold text-2xl py-2 mb-4 rounded'>Add New Member</h3>
         
         <label className='font-bold'>Full Name</label>

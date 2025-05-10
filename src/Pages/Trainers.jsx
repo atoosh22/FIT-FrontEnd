@@ -30,8 +30,8 @@ function Trainers() {
 function Hero(){
   return(
     <>
-        <div className="bg-[url('../src/assets/img/trainers.jpg')] bg-cover bg-center min-h-[600px] opacity-0.8" data-aos="fade-up-right">
-     <h3 className='text-7xl text-white pt-32 text-center font-[Roboto] fott-bold'>OUR TRAINERS</h3>
+        <div className="bg-[url('../src/assets/img/trainers.jpg')] bg-cover bg-center min-h-[570px] opacity-0.8" data-aos="fade-up-right">
+     <h3 className='text-7xl text-white pt-65 text-center font-[Roboto] fott-bold'>OUR TRAINERS</h3>
     </div>
     
     </>

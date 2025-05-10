@@ -18,7 +18,7 @@ function Contact() {
 const ContactUs=()=>{
   return(
     <>
-    <div className="mx-32 p-8 my-20 flex justify-between gap-16 md:shadow-lg flex-col md:flex-row bg-gray-50" data-aos="fade-right">
+    <div className="mx-32 p-8 my-50 flex justify-between gap-16 md:shadow-lg flex-col md:flex-row bg-gray-50" data-aos="fade-right">
 
       <div className="py-4">
       <h2 className='text-2xl font-[Roboto]'>Contact Us</h2>

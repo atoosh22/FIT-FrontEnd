@@ -34,7 +34,7 @@ function Hero(){
   return(
     <>
         <div className=" bg-[url('../src/assets/img/Header.png')] bg-cover bg-center min-h-[600px] opacity-70" data-aos="fade-right" >
-       <div className="flex gap-5 mx-20 flex-col md:flex-row">
+       <div className="flex gap-5 mx-20 flex-col md:flex-row pt-32">
        <div className="text pt-32">
        <h2 className='font-bold text-4xl font-[roboto]'>Perfect Workout <br/><span className='text-[#8368FF]'>Coach For Body Shape</span></h2>
        <p className='font-[Poppins] py-2 mb-6'>Quisque leo augue, lobortis ac tellus nec, posuere ultricies nulla. <br/> Praesent massa odio,

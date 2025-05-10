@@ -31,8 +31,8 @@ function Princing() {
 function Hero(){
   return(
     <>
-        <div className="bg-[url('../src/assets/img/pricing.jpg')] bg-cover bg-center min-h-[600px] opacity-70 ">
-     <h3 className='text-7xl text-white pt-32 text-center font-[Roboto] fott-bold'>PRICING PLAN</h3>
+        <div className="bg-[url('../src/assets/img/pricing.jpg')] bg-cover bg-center min-h-[580px] opacity-70 ">
+     <h3 className='text-7xl text-white pt-71 text-center font-[Roboto] fott-bold'>PRICING PLAN</h3>
     </div>
     
     </>
