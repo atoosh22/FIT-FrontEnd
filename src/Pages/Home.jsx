@@ -33,7 +33,7 @@ function Home() {
 function Hero(){
   return(
     <>
-        <div className=" bg-[url('../src/assets/img/Header.png')] bg-cover bg-center min-h-[600px] opacity-70">
+        <div className=" bg-[url('../src/assets/img/Header.png')] bg-cover bg-center min-h-[600px] opacity-70" data-aos="fade-right" >
        <div className="flex gap-5 mx-20 flex-col md:flex-row">
        <div className="text pt-32">
        <h2 className='font-bold text-4xl font-[roboto]'>Perfect Workout <br/><span className='text-[#8368FF]'>Coach For Body Shape</span></h2>
@@ -85,9 +85,9 @@ function Hero(){
 //  body
 function Body() {
   return (
-    <div className="container flex justify-between flex-col md:flex-row mt-71">
+    <div className="container flex justify-between flex-col md:flex-row mt-71" data-aos="fade-right">
       <div className="img">
-        <img src={aboutImg} alt="About" />
+        <img  src={aboutImg} alt="About" />
       </div>
       <div className="text mr-10 ">
         <h2 className='text-3xl text-bold font-[Roboto]'>Let Us Find The Perfect Workout For You!</h2>
@@ -110,42 +110,42 @@ const Workout = () => {
         <p>Fall in love with Fitness</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m-10">
-        <div className="shadow-lg mb-32 ">
+        <div className="shadow-lg mb-32" data-aos="flip-left">
           <img src={course1} alt="" />
           <div className="m-3">
             <p className='font-[Poppins]'>Yoga fundamentals</p>
             <h3>25.90</h3>
           </div>
         </div>
-        <div className="shadow mb-32">
+        <div className="shadow mb-32" data-aos="fade-left">
           <img src={course2} alt="" />
           <div className="m-3">
             <p className='font-[Poppins]'>Total Body Stretchings</p>
             <h3>20.50</h3>
           </div>
         </div>
-        <div className="shadow mb-32">
+        <div className="shadow mb-32" data-aos="zoom-in-up">
           <img src={course4} alt="" />
           <div className="m-3">
             <p className='font-[Poppins]'>Strength Upper Body</p>
             <h3>26.7</h3>
           </div>
         </div>
-        <div className="shadow">
+        <div className="shadow" data-aos="fade-left">
           <img src={course6} alt="" />
           <div className="m-3">
             <p className='font-[Poppins]'>Yoga fundamentals</p>
             <h3>30.00</h3>
           </div>
         </div>
-        <div className="shadow">
+        <div className="shadow" data-aos="zoom-in-up" >
           <img src={course7} alt="" />
           <div className="m-3">
             <p className='font-[Poppins]'>Total Body Stretchings</p>
             <h3>15.60</h3>
           </div>
         </div>
-        <div className="shadow">
+        <div className="shadow" data-aos="fade-left">
           <img src={course5} alt="" />
           <div className="m-3">
             <p className='font-[Poppins]'>Strength Upper Body</p>

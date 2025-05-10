@@ -30,7 +30,7 @@ function Trainers() {
 function Hero(){
   return(
     <>
-        <div className="bg-[url('../src/assets/img/trainers.jpg')] bg-cover bg-center min-h-[600px] opacity-0.8">
+        <div className="bg-[url('../src/assets/img/trainers.jpg')] bg-cover bg-center min-h-[600px] opacity-0.8" data-aos="fade-up-right">
      <h3 className='text-7xl text-white pt-32 text-center font-[Roboto] fott-bold'>OUR TRAINERS</h3>
     </div>
     
@@ -46,7 +46,9 @@ function Team() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
         
         {/* Member 1 */}
-        <div className="shadow-lg p-5 my-20">
+        <div className="shadow-lg p-5 my-20" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
           <img src={team_Member_1} alt="Marvin Joiner" />
           <h4 className='font-bold py-1'>MARVIN JOINER</h4>
           <p>Crossfit Coach</p>
@@ -58,7 +60,7 @@ function Team() {
         </div>
 
         {/* Member 2 */}
-        <div className="shadow-lg p-5 my-20">
+        <div className="shadow-lg p-5 my-20" data-aos="zoom-in-up">
           <img src={team_Member_2} alt="Patricia Woodrum" />
           <h4 className='font-bold py-1'>PATRICIA WOODRUM</h4>
           <p>Cardio & Conditioning</p>
@@ -70,7 +72,7 @@ function Team() {
         </div>
 
         {/* Member 3 */}
-        <div className="shadow-lg p-5 my-20">
+        <div className="shadow-lg p-5 my-20" data-aos="zoom-out-left" >
           <img src={team_Member_3} alt="Hannaz Stone" />
           <h4 className='font-bold py-1'>HANNAZ STONE</h4>
           <p>Strength Coach</p>
@@ -82,7 +84,9 @@ function Team() {
         </div>
 
         {/* Member 4 */}
-        <div className="shadow-lg p-5 my-20">
+        <div className="shadow-lg p-5 my-20" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
           <img src={team_Member_4} alt="John Doe" />
           <h4 className='font-bold py-1'>JOHN DOE</h4>
           <p>Yoga Instructor</p>
@@ -94,7 +98,8 @@ function Team() {
         </div>
 
         {/* Member 5 */}
-        <div className="shadow-lg p-5 my-20">
+        <div className="shadow-lg p-5 my-20" data-aos="fade-up"
+        data-aos-duration="3000">
           <img src={team_Member_5} alt="Jane Smith" />
           <h4 className='font-bold py-1'>JANE SMITH</h4>
           <p>Nutritionist</p>
@@ -106,7 +111,7 @@ function Team() {
         </div>
 
         {/* Member 6 */}
-        <div className="shadow-lg p-5 my-20">
+        <div className="shadow-lg p-5 my-20" data-aos="zoom-out-down">
           <img src={team_Member_6} alt="Mike Johnson" />
           <h4 className='font-bold py-1'>MIKE JOHNSON</h4>
           <p>Fitness Trainer</p>
@@ -133,7 +138,8 @@ const Post=()=>{
 
   {/* cards */}
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-10 ">
-   <div className="bg-gray-200 py-4">
+   <div className="bg-gray-200 py-4" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
    <img src={our_news_1} alt="" />
    <h2 className='w-10 bg-[#FBAD26] rounded-full text-center px-2 py-2 text-white ml-20 '>20</h2>
    <p className='px-6 py-3'>sit amet, consectetur adipisicing elit,
@@ -142,7 +148,9 @@ magna aliqua. Ut enim ad minim veniam, quis nostrud
 exercitation ullamco</p>
    </div>
 
-   <div className="bg-gray-200">
+   <div className="bg-gray-200" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
    <img src={our_news_2} alt="" />
    <h2 className='w-10 bg-[#FBAD26] rounded-full text-center px-2 py-2 text-white ml-20 '>10</h2>
    <p className='px-6 py-3'>sit amet, consectetur adipisicing elit,
@@ -151,7 +159,9 @@ magna aliqua. Ut enim ad minim veniam, quis nostrud
 exercitation ullamco</p>
    </div>
 
-   <div className="bg-gray-200">
+   <div className="bg-gray-200" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
    <img src={our_news_3} alt="" />
    <h2 className='w-10 bg-[#FBAD26] rounded-full text-center px-2 py-2 text-white ml-20 '>30</h2>
    <p className='px-6 py-3'>sit amet, consectetur adipisicing elit,

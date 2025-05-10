@@ -18,7 +18,7 @@ function Contact() {
 const ContactUs=()=>{
   return(
     <>
-    <div className="mx-32 p-8 my-20 flex justify-between gap-16 md:shadow-lg flex-col md:flex-row bg-gray-50">
+    <div className="mx-32 p-8 my-20 flex justify-between gap-16 md:shadow-lg flex-col md:flex-row bg-gray-50" data-aos="fade-right">
 
       <div className="py-4">
       <h2 className='text-2xl font-[Roboto]'>Contact Us</h2>
@@ -39,7 +39,7 @@ const ContactUs=()=>{
       <h2 className='text-2xl font-[Roboto]'> Contact Form</h2>
       <form>
       <div className="flex gap-6 my-5 flex-col md:flex-row">
-       <input className='w-[90%] border border-gray-300 shadow-lg rounded-lg p-2 my-2 bg-white' type="text" required placeholder='Enter Phone Number' /><br/>
+       <input className='w-[90%] border border-gray-300 shadow-lg rounded-lg p-2 my-2 bg-white' type="text" required placeholder='Enter Full Name' /><br/>
         
         <input className='w-[90%] border border-gray-300 shadow-lg rounded-lg p-2 my-2 bg-white' type="text" required placeholder='Enter Phone Number' /><br/>
         

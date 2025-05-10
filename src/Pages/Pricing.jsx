@@ -46,8 +46,8 @@ function Tables(){
     <div className="mt-20 text-center ">
     <p className='text-[#FBAD26] font-[Roboto] py-2 '>PRICING TABLES</p>
       <h3 className='font-bold font-[Roboto] text-3xl '>CHOOSE YOUR PRICING PLAN</h3>
-       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-10">
-       <div className="bg-gray-100 ">
+       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-10" >
+       <div className="bg-gray-100" >
    <img className='w-full' src={pricing_tables_1} alt="" />
    <h2 className='w-10 bg-[#FBAD26] rounded-full text-center flex justify-center px-12 py-6 text-white ml-2 '>$25<br/>/Month</h2>
    {/* 1 */}

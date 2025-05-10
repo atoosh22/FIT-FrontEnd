@@ -44,7 +44,7 @@ const Supplement=()=>{
   return(
     <>
    <div className="flex justify-between mt-65 mx-20 flex-col md:flex-row gap-4">
-    <div className="img">
+    <div className="img" >
     <h3 className='bg-gray-100 shadow-lg text-center font-bold p-4 text-5xl rounded-lg'>WHY NEED THIS?</h3>
     <img className='w-[600px]' src={supplement} alt="" />
     </div>
@@ -73,9 +73,9 @@ function SELLING(){
 
 <h4 className=' text-center text-bold text-4xl font-[Roboto] p-8'>HOT SELLING</h4>
 
-<div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+<div className="grid grid-cols-1 md:grid-cols-3 gap-8 " >
   {/* product1 */}
-  <div className="shadow-lg bg-white rounded-lg hover:bg-gray-300 my-13 p-10 ">
+  <div className="shadow-lg bg-white rounded-lg hover:bg-gray-300 my-13 p-10 " >
     <img src={product1} alt="" />
     <h2 className='pl-20 mt-8 font-bold font-[Roboto]'>WOMEN<br/>DOSES</h2>
   </div>
