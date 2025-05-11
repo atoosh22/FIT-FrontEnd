@@ -61,4 +61,4 @@ const ContactUs=()=>{
 
 }
 
-export default Contact
+export default Contact;
