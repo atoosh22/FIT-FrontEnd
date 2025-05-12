@@ -59,7 +59,7 @@ function Sidebar(){
 
             <li className='flex gap-2 font-bold font-[Roboto] pl-4 pb-3 hover:bg-[#FBAD26]'>
               <ion-icon name="people-sharp" className="text-3xl"></ion-icon>
-             <Link className='font-bold font-[Roboto]' to="/User">User</Link>
+             <Link className='font-bold font-[Roboto]' to="/Users">User</Link>
             </li>
              </ul>
      </div>

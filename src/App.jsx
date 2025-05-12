@@ -8,6 +8,7 @@ import Pricing from './Pages/Pricing'
 import Members from './Pages/Members'
 import Contact from './Pages/Contact'
 import Dashboard from './Pages/Dashboard'
+import Users from './Pages/Users'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <Route path='/Pricing' element={<Pricing/>}> </Route>
     <Route path='/Members' element={<Members/>}></Route>
     <Route path='/Contact' element={<Contact/>}></Route>
+    <Route path='/Users' element={<Users/>}></Route>
     </Routes>
 
     </>
