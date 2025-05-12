@@ -29,7 +29,7 @@ function Sidebar(){
      {/* end dashboard */}
       <li className='flex gap-2 font-bold font-[Roboto] pl-4 pb-3 hover:bg-[#FBAD26]'>
                <ion-icon name="home-outline" className="text-3xl"></ion-icon>
-             <Link to="/">Home</Link>
+             <Link to="/Home">Home</Link>
             </li>
             <li className='flex gap-2 font-bold font-[Roboto] pl-4 pb-3 hover:bg-[#FBAD26]'>
             <ion-icon name="gift-outline" className="text-3xl"></ion-icon>
