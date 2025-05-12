@@ -11,16 +11,18 @@ function Header() {
   return (
     <>
       <nav >
-        <div id='header' className="container flex justify-between items-center bg-[#7168AF] text-white font-bold py-4 shadow-lg z-100">
+        <div id='header' className="container flex justify-between items-center bg-[#7168AF] text-white font-bold py-4  z-100">
              
           <Link to="/"><img className="w-32 ml-5" src="Logo-H.png" alt="Logo" /></Link>
          
 
           <ul className="flex hidden md:flex gap-6 px-10">
 
-          {/* <li>
-          <Link to="/">Home</Link>
-         </li> */}
+          <li>
+          <Link to="/Dashboard">Dashboard</Link>
+         </li>
+
+         
 
          <li>
           <Link to="/Product">Product</Link>

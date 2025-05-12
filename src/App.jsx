@@ -7,12 +7,15 @@ import Trainers from './Pages/Trainers'
 import Pricing from './Pages/Pricing'
 import Members from './Pages/Members'
 import Contact from './Pages/Contact'
+import Dashboard from './Pages/Dashboard'
 
 function App() {
   return (
     <>
+   
+    
     <Routes>
-
+     <Route path='/Dashboard' element={<Dashboard/>} ></Route>
     <Route path='/' element={<Home/>}></Route>
     <Route path='/Product' element={<Product/>}></Route>
     <Route path='/Trainers' element={<Trainers/>}></Route>
