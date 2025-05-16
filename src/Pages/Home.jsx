@@ -36,10 +36,10 @@ function Hero(){
         <div className=" bg-[url('../src/assets/img/Header.png')] bg-cover bg-center min-h-[600px] opacity-70" data-aos="fade-right" >
        <div className="flex gap-5 mx-20 flex-col md:flex-row pt-32">
        <div className="text pt-32">
-       <h2 className='font-bold text-4xl font-[roboto]'>Perfect Workout <br/><span className='text-[#8368FF]'>Coach For Body Shape</span></h2>
+       <h2 className='font-bold text-4xl font-[roboto]'>Perfect Workout <br/><span className='text-[#58c8e5]'>Coach For Body Shape</span></h2>
        <p className='font-[Poppins] py-2 mb-6'>Quisque leo augue, lobortis ac tellus nec, posuere ultricies nulla. <br/> Praesent massa odio,
         pellentesque in consectetur quis, volutpat sit amet erat.</p>
-        <a className='bg-[#FBAD26] rounded-lg px-4 py-2  text-white hover:bg-[#7168AF]' href="#">Read More</a>
+        <a className='bg-[#82b6a8] rounded-lg px-4 py-2  text-white hover:bg-[#58c8e5]' href="#">Read More</a>
        </div>
        <div className="img">
         <img className='pt-10 ' src={header_img} alt="" />
@@ -53,26 +53,26 @@ function Hero(){
 
        <div className=" flex gap-10 justify-center bg-white mx-10 shadow-lg rounded-lg p-5 flex-col md:flex-row">
         <div className="flex gap-2">
-        <ion-icon name="location-outline" className="text-4xl text-[#FBAD26]"></ion-icon>
+        <ion-icon name="location-outline" className="text-4xl text-[#58c8e5]"></ion-icon>
           <p>Choose your location</p>
         </div>
 
         {/* 2 */}
         <div className="flex gap-2">
-        <ion-icon name="calendar-outline" className="text-3xl text-[#FBAD26]"></ion-icon>
+        <ion-icon name="calendar-outline" className="text-3xl text-[#58c8e5]"></ion-icon>
           <p>Choose visiting Date</p>
         </div>
 
         {/* 3 */}
 
         <div className="flex gap-2">
-        <ion-icon name="barbell-outline" className="text-3xl text-[#FBAD26]"></ion-icon>
+        <ion-icon name="barbell-outline" className="text-3xl text-[#58c8e5]"></ion-icon>
           <p>Choose Your GYM</p>
         </div>
         {/* 4 */}
 
         <div className="flex gap-2">
-        <ion-icon name="person-outline" className="text-3xl text-[#FBAD26]"></ion-icon>
+        <ion-icon name="person-outline" className="text-3xl text-[#58c8e5]"></ion-icon>
           <p>Choose Your GYM Coach</p>
         </div>
        </div>
@@ -95,7 +95,7 @@ function Body() {
           Duis et consequat enim. Curabitur pulvinar, dolor at pulvinar molestie, <br />
           augue massa volutpat felis, at rhoncus tortor velit vel diam. Cras ac suscipit metus
         </p>
-        <a className='bg-[#FBAD27] text-white mt-10 px-3 py-2 shadow-lg rounded-lg hover:bg-[#7168AF]' href="#">Read More</a>
+        <a className='bg-[#82b6a8] text-white mt-10 px-3 py-2 shadow-lg rounded-lg hover:bg-[#58c8e5]' href="#">Read More</a>
       </div>
     </div>
   );
@@ -167,7 +167,7 @@ function Schedule() {
       <h3 className='text-3xl font-bold text-[#3e3e3e] text-center mt-32 font-[Roboto]'>Our Class Schedule</h3>
       <div className="flex gap-6 bg-gray-100 md:w-full mt-14 py-3 text-center">
         <div className="flex gap-5 md:gap-[180px] px-10">
-          <button className='bg-[#FBAD27] text-white px-3 shadow-lg rounded-lg hover:bg-[#7168AF]'>Monday</button>
+          <button className='bg-[#82b6a8] text-white px-3 shadow-lg rounded-lg hover:bg-[#58c8e5]'>Monday</button>
           <button>Tuesday</button>
           <button>Wednesday</button>
           <button>Thursday</button>
@@ -179,31 +179,31 @@ function Schedule() {
           <img className='w-96' src={icon1} alt="" />
           <h3 className='text-bold text-2xl py-2'>Cardio</h3>
           <p>Rachel Adam</p>
-          <button className='bg-[#FBAD27] text-white px-3 shadow-lg rounded-lg hover:bg-[#7168AF] my-4'>06AM-08AM</button>
+          <button className='bg-[#58c8e5] text-white px-3 shadow-lg rounded-lg hover:bg-[#82b6a8] my-4'>06AM-08AM</button>
         </div>
         <div className="shadow-lg bg-gray-150 p-10">
           <img className='w-96' src={icon2} alt="" />
           <h3 className='text-bold text-2xl py-2'>Weight</h3>
           <p>Rachel Adam</p>
-          <button className='bg-[#FBAD27] text-white px-3 shadow-lg rounded-lg hover:bg-[#7168AF] my-4'>06AM-08AM</button>
+          <button className='bg-[#58c8e5] text-white px-3 shadow-lg rounded-lg hover:bg-[#82b6a8] my-4'>06AM-08AM</button>
         </div>
         <div className="shadow-lg bg-gray-150 p-10">
           <img className='w-96' src={icon3} alt="" />
           <h3 className='text-bold text-2xl py-2'>Yoga</h3>
           <p>Rachel Adam</p>
-          <button className='bg-[#FBAD27] text-white px-3 shadow-lg rounded-lg hover:bg-[#7168AF] my-4'>06AM-08AM</button>
+          <button className='bg-[#58c8e5] text-white px-3 shadow-lg rounded-lg hover:bg-[#82b6a8] my-4'>06AM-08AM</button>
         </div>
         <div className="shadow-lg bg-gray-150 p-10">
           <img className='w-96' src={icon4} alt="" />
           <h3 className='text-bold text-2xl py-2'>Crossfit</h3>
           <p>Rachel Adam</p>
-          <button className='bg-[#FBAD27] text-white px-3 shadow-lg rounded-lg hover:bg-[#7168AF] my-4'>06AM-08AM</button>
+          <button className='bg-[#58c8e5] text-white px-3 shadow-lg rounded-lg hover:bg-[#82b6a8] my-4'>06AM-08AM</button>
         </div>
         <div className="shadow-lg bg-gray-150 p-10">
           <img className='w-96' src={icon5} alt="" />
           <h3 className='text-bold text-2xl py-2'>Boxing</h3>
           <p>Rachel Adam</p>
-          <button className='bg-[#FBAD27] text-white px-3 shadow-lg rounded-lg hover:bg-[#7168AF] my-4'>06AM-08AM</button>
+          <button className='bg-[#58c8e5] text-white px-3 shadow-lg rounded-lg hover:bg-[#82b6a8] my-4'>06AM-08AM</button>
         </div>
       </div>
     </>

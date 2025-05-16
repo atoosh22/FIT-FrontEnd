@@ -4,7 +4,7 @@ function Form() {
   return (
     <>
       <form className='w-4/8 h-full justify-center mx-auto bg-gray-50 shadow-lg rounded-lg text-center mt-37' data-aos="fade-down-right">
-        <h3 className='bg-[#FBAD26] text-white font-bold text-2xl py-2 mb-4 rounded'>Add New Member</h3>
+        <h3 className='bg-[#82b6a8] text-white font-bold text-2xl py-2 mb-4 rounded'>Add New Member</h3>
         
         <label className='font-bold'>Full Name</label>
         <input className='w-[90%] border border-1 shadow-lg rounded-lg p-2 my-2 bg-white ' type="text" required placeholder='Enter Full Name' /><br/>
@@ -43,8 +43,8 @@ function Form() {
         </select><br/>
 
         <div className="flex justify-between my-12 mx-20 pb-3">
-            <input className='bg-[#7168AF] text-white px-2 py-1 rounded ' type="submit" value='Save' />
-            <input className='bg-[#FBAD26] text-white px-2 py-1 rounded ' type="reset" value='Clear' />
+            <input className='bg-[#58c8e5] text-white px-2 py-1 rounded ' type="submit" value='Save' />
+            <input className='bg-[#82b6a8] text-white px-2 py-1 rounded ' type="reset" value='Clear' />
         </div>
       </form>
     </>

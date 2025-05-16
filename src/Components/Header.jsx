@@ -11,9 +11,9 @@ function Header() {
   return (
     <>
       <nav >
-        <div id='header' className="container flex justify-between items-center bg-[#7168AF] text-white font-bold py-4  z-100">
+        <div id='header' className="container flex justify-between items-center bg-[#58c8e5] text-white font-bold py-4  z-100">
              
-          <Link to="/Home"><img className="w-32 ml-5" src="Logo-H.png" alt="Logo" /></Link>
+          <Link to="/Home"><img className="w-32 ml-5" src="LOGO-H.png" alt="Logo" /></Link>
          
 
           <ul className="flex hidden md:flex gap-6 px-10">

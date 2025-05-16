@@ -41,7 +41,7 @@ function Hero(){
 function Team() {
   return (
     <div className="text-center mt-20 px-10">
-      <p className='text-[#FBAD26] font-[Roboto] py-2'>TEAM MEMBERS</p>
+      <p className='text-[#82b6a8] font-[Roboto] py-2'>TEAM MEMBERS</p>
       <h3 className='font-bold font-[Roboto] text-3xl'>TEAM OF EXPERT COACHES</h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
         
@@ -53,9 +53,9 @@ function Team() {
           <h4 className='font-bold py-1'>MARVIN JOINER</h4>
           <p>Crossfit Coach</p>
           <div className="flex gap-3">
-          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
           </div>
         </div>
 
@@ -65,10 +65,10 @@ function Team() {
           <h4 className='font-bold py-1'>PATRICIA WOODRUM</h4>
           <p>Cardio & Conditioning</p>
           <div className="flex gap-3">
-          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-          </div>
+           <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+           </div>
         </div>
 
         {/* Member 3 */}
@@ -77,9 +77,9 @@ function Team() {
           <h4 className='font-bold py-1'>HANNAZ STONE</h4>
           <p>Strength Coach</p>
           <div className="flex gap-3">
-          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
           </div>
         </div>
 
@@ -91,9 +91,9 @@ function Team() {
           <h4 className='font-bold py-1'>JOHN DOE</h4>
           <p>Yoga Instructor</p>
           <div className="flex gap-3">
-          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
           </div>
         </div>
 
@@ -104,9 +104,9 @@ function Team() {
           <h4 className='font-bold py-1'>JANE SMITH</h4>
           <p>Nutritionist</p>
           <div className="flex gap-3">
-          <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+           <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
           </div>
         </div>
 
@@ -116,9 +116,9 @@ function Team() {
           <h4 className='font-bold py-1'>MIKE JOHNSON</h4>
           <p>Fitness Trainer</p>
           <div className="flex gap-3">
-             <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
-            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#FBAD26] hover:bg-black rounded-lg' /></a>
+             <a href="#">    <img  src={facbook} alt="Facebook" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">     <img  src={instagram} alt="instagram" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
+            <a href="#">    <img  src={twitter} alt="twitter" className='w-6 bg-[#58c8e5] hover:bg-black rounded-lg' /></a>
           </div>
         </div>
 
@@ -132,7 +132,7 @@ const Post=()=>{
 
    <>
   <div className="my-12 text-center">
-  <p className='text-[#FBAD26] font-[Roboto] py-2'>OUR NEWS</p>
+  <p className='text-[#58c8e5] font-[Roboto] py-2'>OUR NEWS</p>
   <h3 className='font-bold font-[Roboto] text-3xl'>LATEST BLOG POSTS</h3>
   </div>
 
@@ -141,7 +141,7 @@ const Post=()=>{
    <div className="bg-gray-200 py-4" data-aos="fade-up"
      data-aos-anchor-placement="center-bottom">
    <img src={our_news_1} alt="" />
-   <h2 className='w-10 bg-[#FBAD26] rounded-full text-center px-2 py-2 text-white ml-20 '>20</h2>
+   <h2 className='w-10 bg-[#82b6a8] rounded-full text-center px-2 py-2 text-white ml-20 '>20</h2>
    <p className='px-6 py-3'>sit amet, consectetur adipisicing elit,
 sed do eiusmod tempor incididunt ut labore et dolore,
 magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -152,7 +152,7 @@ exercitation ullamco</p>
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
    <img src={our_news_2} alt="" />
-   <h2 className='w-10 bg-[#FBAD26] rounded-full text-center px-2 py-2 text-white ml-20 '>10</h2>
+   <h2 className='w-10 bg-[#82b6a8] rounded-full text-center px-2 py-2 text-white ml-20 '>10</h2>
    <p className='px-6 py-3'>sit amet, consectetur adipisicing elit,
 sed do eiusmod tempor incididunt ut labore et dolore,
 magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -163,7 +163,7 @@ exercitation ullamco</p>
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
    <img src={our_news_3} alt="" />
-   <h2 className='w-10 bg-[#FBAD26] rounded-full text-center px-2 py-2 text-white ml-20 '>30</h2>
+   <h2 className='w-10 bg-[#82b6a8] rounded-full text-center px-2 py-2 text-white ml-20 '>30</h2>
    <p className='px-6 py-3'>sit amet, consectetur adipisicing elit,
 sed do eiusmod tempor incididunt ut labore et dolore,
 magna aliqua. Ut enim ad minim veniam, quis nostrud

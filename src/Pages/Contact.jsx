@@ -52,7 +52,7 @@ const ContactUs=()=>{
         </textarea>
      
 
-        <input className='bg-[#FBAD26] text-white px-2 py-1 rounded ' type="submit" value='Send a Messege' />
+        <input className='bg-[#82b6a8] text-white px-2 py-1 rounded ' type="submit" value='Send a Messege' />
       </form>
       </div>
     </div>
