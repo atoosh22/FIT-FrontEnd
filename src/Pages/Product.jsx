@@ -32,7 +32,7 @@ function Hero(){
     <>
         <div className="bg-[url('../src/assets/img/product.jpg')] bg-cover bg-center  min-h-[500px] opacity-80">
      <h3 className='text-6xl text-white pt-32 text-center font-[Roboto] fott-bold'>Your Body Needs High <br/>
-     <span className='text-[#58c8e5] font-bold  text-4xl'>Energy during Workout</span></h3>
+     <span className='text-[#82b6a8] font-bold  text-4xl'>Energy during Workout</span></h3>
     </div>
     
     </>

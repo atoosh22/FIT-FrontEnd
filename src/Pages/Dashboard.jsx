@@ -19,7 +19,7 @@ function Sidebar(){
     <>
   {/* sidebar */}
    <div className="flex ">
-     <div className="flex-col bg-[#58c8e5] text-white gap-5 py-32 t w-45 h-screen text-center">
+     <div className="flex-col bg-[#023047] text-white gap-5 py-32 t w-45 h-screen text-center">
       <ul>
    
              <li className='flex gap-2 font-bold font-[Roboto] pl-4 pb-3 hover:bg-[#82b6a8] '>
@@ -69,7 +69,7 @@ function Sidebar(){
 
              <div className="grid grid-cols-1 md:grid-cols-3 w-8/10 h-10 mx-14 my-39 gap-6">
              {/* card1 */}
-              <div className="shadow rounded bg-[#82b6a8] text-white px-4 py-10 hover:bg-[#58c8e5]">
+              <div className="shadow rounded bg-[#82b6a8] text-white px-4 py-10 hover:bg-[#023047]">
                 <div className="flex justify-between ">
                   <ion-icon name="bag-remove-outline" className="text-4xl"></ion-icon>
                   <h3 className='text-4xl pr-8'>20</h3>
@@ -79,7 +79,7 @@ function Sidebar(){
 
               {/* card two */}
 
-               <div className="shadow rounded bg-[#58c8e5] text-white px-4 py-10 hover:bg-[#82b6a8]">
+               <div className="shadow rounded bg-[#023047] text-white px-4 py-10 hover:bg-[#82b6a8]">
                 <div className="flex justify-between ">
                  <ion-icon name="accessibility-outline" className="text-4xl"></ion-icon>
                   <h3 className='text-4xl pr-8'>10</h3>
@@ -89,7 +89,7 @@ function Sidebar(){
 
               {/* card Tree */}
 
-                 <div className="shadow rounded bg-[#82b6a8] text-white px-4 py-10 hover:bg-[#58c8e5] ">
+                 <div className="shadow rounded bg-[#82b6a8] text-white px-4 py-10 hover:bg-[#023047] ">
                 <div className="flex justify-between ">
                  <ion-icon name="woman-outline" className="text-4xl"></ion-icon>
                   <h3 className='text-4xl pr-8'>200</h3>
@@ -99,7 +99,7 @@ function Sidebar(){
 
             {/* card four               */}
 
-               <div className="shadow rounded bg-[#58c8e5] text-white px-4 py-10 hover:bg-[#82b6a8]">
+               <div className="shadow rounded bg-[#023047] text-white px-4 py-10 hover:bg-[#82b6a8]">
                 <div className="flex justify-between ">
                  <ion-icon name="person-add-outline" className="text-4xl"></ion-icon>
                   <h3 className='text-4xl pr-8'>30</h3>
@@ -109,7 +109,7 @@ function Sidebar(){
 
               {/* card five */}
 
-               <div className="shadow rounded bg-[#82b6a8] text-white px-4 py-10 hover:bg-[#58c8e5]">
+               <div className="shadow rounded bg-[#82b6a8] text-white px-4 py-10 hover:bg-[#023047]">
                 <div className="flex justify-between ">
                 <ion-icon name="wallet-outline" className="text-4xl"></ion-icon>
                   <h3 className='text-4xl pr-8'>25</h3>
@@ -119,7 +119,7 @@ function Sidebar(){
 
               {/* card six */}
 
-               <div className="shadow rounded bg-[#58c8e5] text-white px-4 py-10 hover:bg-[#82b6a8]">
+               <div className="shadow rounded bg-[#023047] text-white px-4 py-10 hover:bg-[#82b6a8]">
                 <div className="flex justify-between ">
                <ion-icon name="clipboard-outline" className="text-4xl"></ion-icon>
                   <h3 className='text-4xl pr-8'>40</h3>

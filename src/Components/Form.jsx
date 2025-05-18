@@ -43,7 +43,7 @@ function Form() {
         </select><br/>
 
         <div className="flex justify-between my-12 mx-20 pb-3">
-            <input className='bg-[#58c8e5] text-white px-2 py-1 rounded ' type="submit" value='Save' />
+            <input className='bg-[#023047] text-white px-2 py-1 rounded ' type="submit" value='Save' />
             <input className='bg-[#82b6a8] text-white px-2 py-1 rounded ' type="reset" value='Clear' />
         </div>
       </form>

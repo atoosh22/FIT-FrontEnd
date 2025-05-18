@@ -44,7 +44,7 @@ function Tables(){
     <>
 
     <div className="mt-20 text-center ">
-    <p className='text-[#58c8e5] font-[Roboto] py-2 '>PRICING TABLES</p>
+    <p className='text-[#023047] font-[Roboto] py-2 '>PRICING TABLES</p>
       <h3 className='font-bold font-[Roboto] text-3xl '>CHOOSE YOUR PRICING PLAN</h3>
        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-10" >
        <div className="bg-gray-100" >
@@ -57,7 +57,7 @@ function Tables(){
    <p>Group Attendence</p>
    <p>Gym fight clab</p>
    <p>body bulding</p>
-<a href="#">   <button className='bg-[#58c8e5] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
+<a href="#">   <button className='bg-[#023047] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
   </div>
    </div>
 
@@ -71,7 +71,7 @@ function Tables(){
    <p>Group Attendence</p>
    <p>Gym fight clab</p>
    <p>body bulding</p>
-   <a href="#">   <button className='bg-[#58c8e5] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
+   <a href="#">   <button className='bg-[#023047] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
   
   </div>
    </div>
@@ -86,7 +86,7 @@ function Tables(){
    <p>Group Attendence</p>
    <p>Gym fight clab</p>
    <p>body bulding</p>
-   <a href="#">   <button className='bg-[#58c8e5] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
+   <a href="#">   <button className='bg-[#023047] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
   
   </div>
    </div>
@@ -101,7 +101,7 @@ function Tables(){
    <p>perfect residence</p>
    <p>body bulding</p>
    <p><span className='text-4xl font-bold text-[#82b6a8]'>$20</span>/per month</p>
-   <a href="#">   <button className='bg-[#58c8e5] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
+   <a href="#">   <button className='bg-[#023047] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
   
   </div>
    </div>
@@ -116,7 +116,7 @@ function Tables(){
    <p>perfect residence</p>
    <p>body bulding</p>
    <p><span className='text-4xl font-bold text-[#82b6a8]'>$25</span>/per month</p>
-   <a href="#">   <button className='bg-[#58c8e5] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
+   <a href="#">   <button className='bg-[#023047] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
   
   </div>
    </div>
@@ -131,7 +131,7 @@ function Tables(){
    <p>perfect residence</p>
    <p>body bulding</p>
    <p><span className='text-4xl font-bold text-[#82b6a8]'>$10</span>/per month</p>
-   <a href="#">   <button className='bg-[#58c8e5] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
+   <a href="#">   <button className='bg-[#023047] py-1  px-3 rounded-lg text-white border-2 '>Join now</button></a>
   
   </div>
    </div>
