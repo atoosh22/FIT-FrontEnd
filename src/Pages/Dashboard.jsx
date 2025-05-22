@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 function Dashboard() {
   return (
     <>
-
-      <Header/>
+{/* 
+      <Header/> */}
      <Sidebar/>
      
     </>
@@ -19,7 +19,7 @@ function Sidebar(){
     <>
   {/* sidebar */}
    <div className="flex ">
-     <div className="flex-col bg-[#023047] text-white gap-5 py-32 t w-45 h-screen text-center">
+     <div className="flex-col bg-[#023047] text-white gap-5 py-32 t w-45 h-screen">
       <ul>
    
              <li className='flex gap-2 font-bold font-[Roboto] pl-4 pb-3 hover:bg-[#82b6a8] '>
@@ -66,8 +66,9 @@ function Sidebar(){
      {/* end user */}
 
      {/* // End side bard */}
+    
 
-             <div className="grid grid-cols-1 md:grid-cols-3 w-8/10 h-10 mx-14 my-39 gap-6">
+             <div className="grid grid-cols-1 md:grid-cols-3 w-8/10 h-10 mx-14 my-13 gap-6">
              {/* card1 */}
               <div className="shadow rounded bg-[#82b6a8] text-white px-4 py-10 hover:bg-[#023047]">
                 <div className="flex justify-between ">
@@ -88,6 +89,7 @@ function Sidebar(){
               </div>
 
               {/* card Tree */}
+              <h2>DashBoard</h2>
 
                  <div className="shadow rounded bg-[#82b6a8] text-white px-4 py-10 hover:bg-[#023047] ">
                 <div className="flex justify-between ">
