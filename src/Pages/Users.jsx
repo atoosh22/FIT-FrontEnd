@@ -7,7 +7,7 @@ function Users() {
   return (
     <>
 
-    <Header/>
+    {/* <Header/> */}
 
     {/* <SingUp/> */}
     <Login/>

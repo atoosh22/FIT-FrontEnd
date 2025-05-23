@@ -1,5 +1,5 @@
 import React from 'react';
-import PricingHeader from '../assets/img/trainers.jpg';
+// import PricingHeader from '../assets/img/trainers.jpg';
 import team_Member_1 from '../assets/img/team_Member_1.png';
 import team_Member_2 from '../assets/img/team_Member_2.png';
 import team_Member_3 from '../assets/img/team_Member_3.png';

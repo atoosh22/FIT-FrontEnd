@@ -19,8 +19,9 @@ function Sidebar(){
     <>
   {/* sidebar */}
    <div className="flex ">
-     <div className="flex-col bg-[#023047] text-white gap-5 py-32 t w-45 h-screen">
-      <ul>
+     <div className="flex-col bg-[#023047] text-white gap-5  t w-45 h-screen">
+      <h2 className='pt-0'>ADMIN DASHBOARD</h2>
+      <ul className='pt-20'>
    
              <li className='flex gap-2 font-bold font-[Roboto] pl-4 pb-3 hover:bg-[#82b6a8] '>
                <ion-icon name="grid-outline" className="text-3xl"></ion-icon>
@@ -89,7 +90,7 @@ function Sidebar(){
               </div>
 
               {/* card Tree */}
-              <h2>DashBoard</h2>
+           
 
                  <div className="shadow rounded bg-[#82b6a8] text-white px-4 py-10 hover:bg-[#023047] ">
                 <div className="flex justify-between ">

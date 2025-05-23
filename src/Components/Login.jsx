@@ -12,13 +12,21 @@ function Login() {
 function Log(){
     return(
         <>
+ <div className="flex justify-center shadow-lg w-4/8 mx-auto mt-32 rounded-lg h-[400px]">
 
-        <form action=""  className='my-32 shadow-lg w-3/8 h-[400px] rounded-lg mx-auto pl-6'>
-            <h3 className='pt-5 font-bold text-2xl'>LogIn</h3>
-            <input className='w-[80%] p-3 border my-5' type="text" placeholder='Username' required /><br/>
-            <input className='w-[80%] p-3 border my-5' type="password" placeholder='Password' required /><br/>
-            <input className='w-[80%] p-3 text-white my-5 bg-[#023047]' type="submit" value='LogIn' placeholder='Password' required /><br/>
-        </form>
+ <div className="bg-blue-400 w-full rounded-lg">
+    <h4>welcome Back Login</h4>
+ </div>
+ <form action="" className='w-full'>
+    <input className='m-6' type="text" placeholder='username' />
+    <input className='m-6' type="text" placeholder='username' />
+    <input className='m-6' type="text" placeholder='username' />
+    <input className='m-6' type="text" placeholder='username' />
+    <input className='m-6' type="text" placeholder='username' />
+ </form>
+    
+
+ </div>
 
         
         </>
